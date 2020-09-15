@@ -36,9 +36,11 @@ body {
 }
 
 .container {
+  position: relative;
   width: 90%;
   margin-left: auto;
   margin-right: auto;
+  z-index: 100;
 }
 
 /* -- Nav -- */
@@ -73,7 +75,7 @@ body {
   justify-content: center;
   min-height: calc(100vh - 8rem);
   max-width: 40rem;
-  margin: 0 auto;
+  margin: -4rem auto 0;
 }
 
 .hero-brand {
@@ -127,4 +129,58 @@ body {
   font-weight: 900;
   font-size: 1.2rem;
   line-height: 3rem;
+}
+
+.plains {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.plain-left {
+  position: absolute;
+  bottom: -40rem;
+  left: -30rem;
+  width: 50rem;
+  height: 50rem;
+
+  border-radius: 50%;
+  background-color: #78B388;
+}
+
+.plain-center-bg {
+  position: absolute;
+  bottom: -23rem;
+  left: -25vw;
+  width: 100vw;
+  height: 30rem;
+
+  border-radius: 50%;
+  background-color: #5A8F69;
+}
+
+.plain-center-fg {
+  position: absolute;
+  bottom: -23rem;
+  right: -15rem;
+  width: 50rem;
+  height: 30rem;
+
+  border-radius: 50%;
+  background-color: #78B388;
+}
+
+.plain-right {
+  position: absolute;
+  bottom: -43rem;
+  right: -40rem;
+  width: 60rem;
+  height: 60rem;
+
+  border-radius: 50%;
+  background-color: #5A8F69;
 }
