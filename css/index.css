@@ -60,6 +60,7 @@ body {
 
 .nav-logo {
   width: 4rem;
+  min-height: 3rem;
   margin-right: 2rem;
 }
 
@@ -86,11 +87,13 @@ body {
 
 .hero-brand-logo {
   width: 8rem;
+  min-height: 6rem;
   margin: 1rem auto;
 }
 
 .hero-brand-name {
   margin: 1rem auto;
+  min-height: 3rem;
 }
 
 .hero-brand-brief {
