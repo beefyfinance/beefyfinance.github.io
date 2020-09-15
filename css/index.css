@@ -166,8 +166,8 @@ body {
 .plain-center-fg {
   position: absolute;
   bottom: -23rem;
-  right: -15rem;
-  width: 50rem;
+  right: -15vw;
+  width: 70vw;
   height: 30rem;
 
   border-radius: 50%;
