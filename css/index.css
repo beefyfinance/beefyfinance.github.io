@@ -75,7 +75,7 @@ body {
   justify-content: center;
   min-height: calc(100vh - 8rem);
   max-width: 40rem;
-  margin: -4rem auto 0;
+  margin: 0 auto;
 }
 
 .hero-brand {
@@ -133,6 +133,7 @@ body {
 
 .plains {
   position: fixed;
+  display: none;
   top: 0;
   left: 0;
   width: 100vw;
@@ -147,7 +148,7 @@ body {
   left: -30rem;
   width: 50rem;
   height: 50rem;
-
+  
   border-radius: 50%;
   background-color: #78B388;
 }
@@ -158,7 +159,7 @@ body {
   left: -25vw;
   width: 100vw;
   height: 30rem;
-
+  
   border-radius: 50%;
   background-color: #5A8F69;
 }
@@ -169,7 +170,7 @@ body {
   right: -15vw;
   width: 70vw;
   height: 30rem;
-
+  
   border-radius: 50%;
   background-color: #78B388;
 }
@@ -180,7 +181,17 @@ body {
   right: -40rem;
   width: 60rem;
   height: 60rem;
-
+  
   border-radius: 50%;
   background-color: #5A8F69;
+}
+
+@media only screen and (min-width: 769px) {
+  .hero {
+    margin: -4rem auto 0;
+  }
+
+  .plains {
+    display: block;
+  }
 }
