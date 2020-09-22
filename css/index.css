@@ -58,6 +58,11 @@ body {
   align-items: self-end;
 }
 
+.nav-right {
+  display: inline-flex;
+  align-items: self-end;
+}
+
 .nav-logo {
   width: 4rem;
   min-height: 3rem;
@@ -67,6 +72,11 @@ body {
 .nav-item {
   font-weight: 900;
   font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.nav-item:hover {
+  text-decoration: underline;
 }
 
 .hero {
