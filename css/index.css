@@ -83,6 +83,7 @@ body {
   padding: .5rem 1rem;
   border: 1px solid #000;
   border-radius: 4px;
+  font-weight: 700;
 }
 
 .nav-btn:hover {
