@@ -188,7 +188,7 @@ body {
   display: flex;
   align-content: center;
   text-decoration: none;
-  margin: 0 1rem;
+  margin: 0 1rem 1.7rem 1rem;
   transition: all .1s ease-out; 
 }
 
